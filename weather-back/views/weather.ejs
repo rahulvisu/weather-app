@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/css.css">
+   
+
+</head>
+<body>
+    <div class="main">
+    <%- include('partials/header')%>
+    
+    <h1>search for weather</h1>
+    <form id="weatherForm">
+        <input type="text" placeholder="search for a location" id="weather">
+        <button>search</button>
+    </form>
+</div>
+<p id="rainChance"></p>
+<p id="temp"></p>
+<p id="time"></p>
+<script src="/js/public.js"></script>
+</body>
+</html>
+
